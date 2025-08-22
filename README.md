@@ -12,10 +12,6 @@ uv tool install git+https://github.com/rynjms/vistacli.git
 pip install git+https://github.com/rynjms/vistacli.git
 ```
 
-# Or install using pip
-pip install vistacli
-```
-
 ## Tools Overview
 
 ### vsauth - Authentication Management
