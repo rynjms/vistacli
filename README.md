@@ -1,15 +1,19 @@
 # VistaCLI
 
-A collection of command-line tools for interacting with Vista Social's internal APIs, providing programmatic access to media library management and file uploads.
+A collection of command-line tools for interacting with the Vista Social social media suite, providing programmatic access to media library management and file uploads.
 
 ## Installation
 
 ```bash
-# Install using uv
-uv tool install .
+# Install directly from GitHub using uv
+uv tool install git+https://github.com/rynjms/vistacli.git
 
-# Or install from the current directory
-uv pip install .
+# Or install using pip
+pip install git+https://github.com/rynjms/vistacli.git
+```
+
+# Or install using pip
+pip install vistacli
 ```
 
 ## Tools Overview
@@ -211,7 +215,7 @@ vsdir add "Folder 3" --description "Third folder"
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome. Please submit a PR.
 
 ## License
 
